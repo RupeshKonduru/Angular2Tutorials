@@ -69,6 +69,12 @@
     <Content Include="packages.config" />
     <Content Include="bs-config.json" />
     <Content Include="package.json" />
+    <Content Include="src\app\Employee\employee.component.css" />
+    <Content Include="src\app\Employee\employee.component.html" />
+    <Content Include="src\app\Employee\employee.component.ts" />
+    <Content Include="src\app\Employee\employeeList.component.css" />
+    <Content Include="src\app\Employee\employeelist.component.html" />
+    <Content Include="src\app\Employee\employeelist.component.ts" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
     <None Include="Web.Debug.config">
