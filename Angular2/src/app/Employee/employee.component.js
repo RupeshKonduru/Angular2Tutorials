@@ -24,7 +24,7 @@ EmployeeComponent = __decorate([
     core_1.Component({
         selector: 'my-employee',
         styleUrls: ['app/Employee/employee.component.css'],
-        templateUrl: 'app/Employee/employee.component.html',
+        templateUrl: 'app/Employee/employee.component.html'
     })
 ], EmployeeComponent);
 exports.EmployeeComponent = EmployeeComponent;

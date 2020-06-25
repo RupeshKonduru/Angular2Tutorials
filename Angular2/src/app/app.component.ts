@@ -27,6 +27,8 @@ import {Component} from '@angular/core'
    //inputId.getAttribute('value')
    //inputId.value
 	template: `<span>
+	<h1>Trackfor</h1>
+	<list-trackfor></list-trackfor>
 	<button class='colorClass'>ColorClass Button</button><br/>
 	<button class='colorClass' [class]='classesToApply' >ClassesToApply</button><br/>
 	<button class='colorClass' [class.boldClass]='!applyBoldClass'>Apply Bold Class</button><br/>
