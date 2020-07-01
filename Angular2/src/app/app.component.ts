@@ -26,7 +26,7 @@ import {Component} from '@angular/core'
     // inplace of the data-binding expression
    //inputId.getAttribute('value')
    //inputId.value
-	template: `<span>
+	template: ` <span>
 	<h1>Trackfor</h1>
 	<list-trackfor></list-trackfor>
 	<button class='colorClass'>ColorClass Button</button><br/>
@@ -70,6 +70,7 @@ import {Component} from '@angular/core'
 // export keyword allows this class to be exported, so other components 
 // in the application can import and use it if required
 export class AppComponent {
+  	serText: string = 'LifeCycle';
 	name:string="Test";
 	isBold:boolean=true;
 	isItalic:boolean=true;

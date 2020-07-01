@@ -11,7 +11,7 @@ import { EmployeeCountComponent } from './employee/employeeCount.component';
 
 @NgModule({
   imports:      [ BrowserModule,FormsModule ],
-  declarations: [ AppComponent,EmployeeComponent,EmployeeListComponent,TrackForComponent,EmployeeTitlePipe, EmployeeCountComponent ],
+    declarations: [AppComponent, EmployeeComponent, EmployeeListComponent, TrackForComponent, EmployeeTitlePipe, EmployeeCountComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
